@@ -109,8 +109,9 @@ button:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 1100px;
     padding: 30px 0;
+    margin: 0 auto;
 
 }
 
@@ -118,7 +119,8 @@ button:active {
 
     display: flex;
     justify-content: space-between;
-    width: 95%;
+    width: 90%;
+    margin: 0 auto;
 
 }
 
