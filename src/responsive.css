@@ -2,15 +2,38 @@
   .h-n-leftSide, .h-n-rightSide, .a-flexbox {
     flex-direction: column;
   }
-  .h-header, .h-text, .r-f-m-b-c-header {
-    scale: .8;
+  .h-n-leftSide {
+    display: none;
+  }
+  .h-n-rS-button {
+    padding: 10px 5px;
+    font-size: 10px;
+  }
+  .h-n-rS-address {
+    font-size: 8px;
+  }
+  .h-n-select {
+    display: block;
+    background-color: transparent;
+    border: 2px solid #EBC52F;
+    padding: 10px 0px;
+    color: #EBC52F;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+  .h-text, .r-f-m-b-c-header {
+    font-size: 24px;
+  }
+  .h-header {
+    font-size: 72px;
   }
   .a-f-left-block {
     align-items: center;
     margin-bottom: 30px;
+    width: 100%;
   }
-  .r-f-m-b-c-header {
-    margin-left: -25px;
+  .a-f-right-block {
+    width: 100%;
   }
   .f-f-m-b-h-c-header, .f-f-m-b-h-c-text {
     width: 80%;
@@ -21,6 +44,15 @@
 }
 
 @media (max-width: 425px) {
+  .h-header {
+    font-size: 54px;
+  }
+  .b-header {
+    font-size: 36px;
+  }
+  .b-button {
+    font-size: 20px;
+  }
   .r-f-m-blocks {
     display: flex;
     flex-direction: column;
@@ -58,18 +90,11 @@
   .h-navbar {
     margin-bottom: 60px;
   }
-  .h-header {
-    width: 100%;
-    font-size: 72px;
-  }
   .h-text {
     font-size: 40px;
   }
   .hero {
     height: 500px;
-  }
-  .h-n-rS-button {
-    padding: 15px 10px;
   }
   .f-f-main {
     flex-direction: column;
