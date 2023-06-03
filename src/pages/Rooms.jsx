@@ -22,10 +22,10 @@ const Rooms = () => {
 
               <div className="f-f-m-b-h-container">
                 <h1 className="f-f-m-b-h-c-header">
-                  Лобби кафе-бар, открытый 24 <br /> часа в сутки
+                  Лобби кафе-бар, открытый 24 часа в сутки
                 </h1>
                 <p className="f-f-m-b-h-c-text">
-                  Lorem ipsum dolor sit omen. cheto cheto <br /> tam bebra krch
+                  Lorem ipsum dolor sit omen. cheto cheto tam bebra krch
                 </p>
               </div>
             </div>
@@ -39,10 +39,10 @@ const Rooms = () => {
 
               <div className="f-f-m-b-h-container">
                 <h1 className="f-f-m-b-h-c-header">
-                  Лобби кафе-бар, открытый 24 <br /> часа в сутки
+                  Лобби кафе-бар, открытый 24 часа в сутки
                 </h1>
                 <p className="f-f-m-b-h-c-text">
-                  Lorem ipsum dolor sit omen. cheto cheto <br /> tam bebra krch
+                  Lorem ipsum dolor sit omen. cheto cheto tam bebra krch
                 </p>
               </div>
             </div>
@@ -56,10 +56,10 @@ const Rooms = () => {
 
               <div className="f-f-m-b-h-container">
                 <h1 className="f-f-m-b-h-c-header">
-                  Лобби кафе-бар, открытый 24 <br /> часа в сутки
+                  Лобби кафе-бар, открытый 24 часа в сутки
                 </h1>
                 <p className="f-f-m-b-h-c-text">
-                  Lorem ipsum dolor sit omen. cheto cheto <br /> tam bebra krch
+                  Lorem ipsum dolor sit omen. cheto cheto tam bebra krch
                 </p>
               </div>
             </div>
@@ -73,10 +73,10 @@ const Rooms = () => {
 
               <div className="f-f-m-b-h-container">
                 <h1 className="f-f-m-b-h-c-header">
-                  Лобби кафе-бар, открытый 24 <br /> часа в сутки
+                  Лобби кафе-бар, открытый 24 часа в сутки
                 </h1>
                 <p className="f-f-m-b-h-c-text">
-                  Lorem ipsum dolor sit omen. cheto cheto <br /> tam bebra krch
+                  Lorem ipsum dolor sit omen. cheto cheto tam bebra krch
                 </p>
               </div>
             </div>
@@ -90,10 +90,10 @@ const Rooms = () => {
 
               <div className="f-f-m-b-h-container">
                 <h1 className="f-f-m-b-h-c-header">
-                  Лобби кафе-бар, открытый 24 <br /> часа в сутки
+                  Лобби кафе-бар, открытый 24 часа в сутки
                 </h1>
                 <p className="f-f-m-b-h-c-text">
-                  Lorem ipsum dolor sit omen. cheto cheto <br /> tam bebra krch
+                  Lorem ipsum dolor sit omen. cheto cheto tam bebra krch
                 </p>
               </div>
             </div>
@@ -107,10 +107,10 @@ const Rooms = () => {
 
               <div className="f-f-m-b-h-container">
                 <h1 className="f-f-m-b-h-c-header">
-                  Лобби кафе-бар, открытый 24 <br /> часа в сутки
+                  Лобби кафе-бар, открытый 24 часа в сутки
                 </h1>
                 <p className="f-f-m-b-h-c-text">
-                  Lorem ipsum dolor sit omen. cheto cheto <br /> tam bebra krch
+                  Lorem ipsum dolor sit omen. cheto cheto tam bebra krch
                 </p>
               </div>
             </div>
@@ -138,13 +138,13 @@ const Rooms = () => {
 
               <div className="r-f-m-b-container">
                 <h1 className="r-f-m-b-c-header">
-                  Стандартный <br /> номер
+                  Стандартный номер
                 </h1>
                 <p className="r-f-m-b-c-description">Хорош для 2-3 человек</p>
                 <p className="r-f-m-b-c-price">$20 - $45</p>
                 <p className="r-f-m-b-c-text">
-                  22-24 m2 (248 ft2)King size or <br /> twin bedsBathroom is
-                  equipped <br /> with a hairdryerFree high-speed <br />{" "}
+                  22-24 m2 (248 ft2)King size or  twin bedsBathroom is
+                  equipped with a hairdryerFree high-speed
                   Internet accessSafe
                 </p>
                 <Link to="/404" className="r-f-m-b-c-button">Забронировать</Link>
@@ -160,13 +160,13 @@ const Rooms = () => {
 
               <div className="r-f-m-b-container">
                 <h1 className="r-f-m-b-c-header">
-                  Стандартный <br /> номер
+                  Стандартный номер
                 </h1>
                 <p className="r-f-m-b-c-description">Хорош для 2-3 человек</p>
                 <p className="r-f-m-b-c-price">$20 - $45</p>
                 <p className="r-f-m-b-c-text">
-                  22-24 m2 (248 ft2)King size or <br /> twin bedsBathroom is
-                  equipped <br /> with a hairdryerFree high-speed <br />{" "}
+                  22-24 m2 (248 ft2)King size or twin bedsBathroom is
+                  equipped with a hairdryerFree high-speed
                   Internet accessSafe
                 </p>
                 <Link to="/404" className="r-f-m-b-c-button">Забронировать</Link>
@@ -182,16 +182,15 @@ const Rooms = () => {
 
               <div className="r-f-m-b-container">
                 <h1 className="r-f-m-b-c-header">
-                  Стандартный <br /> номер
+                  Стандартный номер
                 </h1>
                 <p className="r-f-m-b-c-description">Хорош для 2-3 человек</p>
                 <p className="r-f-m-b-c-price">$20 - $45</p>
                 <p className="r-f-m-b-c-text">
-                  22-24 m2 (248 ft2)King size or <br /> twin bedsBathroom is
-                  equipped <br /> with a hairdryerFree high-speed <br />{" "}
+                  22-24 m2 (248 ft2)King size or twin bedsBathroom is
+                  equipped with a hairdryerFree high-speed
                   Internet accessSafe
                 </p>{" "}
-                <br />
                 <Link to="/404" className="r-f-m-b-c-button">Забронировать</Link>
               </div>
             </li>

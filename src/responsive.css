@@ -5,6 +5,12 @@
   .h-n-leftSide {
     display: none;
   }
+  .s-c-m-f-flexbox {
+    width: 100%;
+  }
+  .g-c-t-header {
+    font-size: 36px;
+  }
   .h-n-rS-button {
     padding: 10px 5px;
     font-size: 10px;
@@ -60,7 +66,7 @@
     width: 100%;
   }
   .r-f-m-b-container {
-    width: 60%;
+    width: 90%;
   }
   .r-f-m-b-img {
     width: 100%;

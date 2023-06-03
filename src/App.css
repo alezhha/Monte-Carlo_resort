@@ -225,9 +225,6 @@ button:active {
 
 .r-f-main {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     padding: 0;
     margin: 0 auto;
 
@@ -242,10 +239,15 @@ button:active {
 
 .r-f-m-b-container {
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .r-f-m-b-img {
     width: 65%;
+    margin-bottom: 20px;
 }
 
 .r-f-m-b-c-header {
@@ -254,6 +256,7 @@ button:active {
     font-family: 'Inter', sans-serif;
     font-size: 38px;
     font-weight: 600;
+    margin: 0;
 
 }
 

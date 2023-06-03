@@ -64,12 +64,12 @@ const Galery = () => {
                   <div className="s-c-m-f-f-block">
                     <h1 className="s-c-m-f-f-b-header">Dada restaurant</h1>
                     <p className="s-c-m-f-f-b-textOne">
-                      Our spa salon is super cool, you can <br /> do whatever
-                      you want there, <br /> serriously, everything, even call
+                      Our spa salon is super cool, you can do whatever
+                      you want there, serriously, everything, even call
                       stuff.
                     </p>
                     <p className="s-c-m-f-f-b-textTwo">
-                      Our spa salon is super cool, you can <br /> do whatever
+                      Our spa salon is super cool, you can do whatever
                       you want there
                     </p>
                   </div>
@@ -80,14 +80,14 @@ const Galery = () => {
                 <div className="s-c-m-f-flexbox">
                   <div className="s-c-m-f-f-block">
                     <h1 className="s-c-m-f-f-b-header">
-                      Spa & <br /> Cosmetology
+                      Spa & Cosmetology
                     </h1>
                     <p className="s-c-m-f-f-b-textOne">
-                      Our spa salon is super cool, you can <br /> do whatever
+                      Our spa salon is super cool, you can do whatever
                       you want there
                     </p>
                     <p className="s-c-m-f-f-b-textTwo">
-                      Our spa salon is super cool, you can <br /> do whatever
+                      Our spa salon is super cool, you can do whatever
                       you want there
                     </p>
                   </div>
