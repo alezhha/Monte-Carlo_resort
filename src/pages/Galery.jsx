@@ -1,4 +1,8 @@
 import React from "react";
+import { Pannellum } from "pannellum-react";
+import reception from "../360img/reception.jpg";
+import restaurant from '../360img/restaurant.jpg'
+import restaurant2 from '../360img/restaurant2.jpg'
 
 const Galery = () => {
   return (
@@ -15,25 +19,13 @@ const Galery = () => {
           </div>
 
           <div className="g-c-grid">
-            <img
-              src={require("../media/sectionGalleryImgOne.png")}
-              alt=""
-              className="g-c-g-img1"
-            />
-            <img
-              src={require("../media/sectionGalleryImgTwo.png")}
-              alt=""
-              className="g-c-g-img2"
-            />
-            <img
-              src={require("../media/sectionGalleryImgThree.png")}
-              alt=""
-              className="g-c-g-img3"
-            />
+            <Pannellum id='g-c-g-img1' image={reception} autoLoad yaw={20} showControls={false} autoRotate={-5} />
+            <Pannellum id="g-c-g-img2" image={restaurant} autoLoad yaw={190} showControls={false} autoRotate={-5} />
+            <Pannellum id="g-c-g-img3" image={restaurant2} autoLoad yaw={190} showControls={false} autoRotate={-5} />
           </div>
 
           <img
-            src={require("../media/sectionGalleryImgFour.png")}
+            src={require("../media/sectionGalleryImgFour.jpg")}
             alt=""
             className="g-c-img"
           />
@@ -43,7 +35,7 @@ const Galery = () => {
       <section className="services">
         <div className="s-container">
           <div className="s-c-texts">
-            <h1 className="s-c-t-header">Наши сервисы: Ресторан и СПА</h1>
+            <h1 className="s-c-t-header">Наши сервисы: Ресторан и Бассейн</h1>
             <p className="s-c-t-text">
               Мы предлагаем вам различные виды сервисов: Управляйте
               релаксирующей атмосферой отдыха или отмечайте праздники в
@@ -55,22 +47,19 @@ const Galery = () => {
             <div className="s-c-m-flexboxes">
               <div className="s-c-m-flexbox">
                 <img
-                  src={require("../media/sectionServicesImgOne.png")}
+                  src={require("../media/sectionGalleryImgOne.jpg")}
                   alt=""
                   className="s-c-m-f-img"
                 />
 
                 <div className="s-c-m-f-flexbox">
                   <div className="s-c-m-f-f-block">
-                    <h1 className="s-c-m-f-f-b-header">Dada restaurant</h1>
+                    <h1 className="s-c-m-f-f-b-header">Monte-Carlo Restaurant</h1>
                     <p className="s-c-m-f-f-b-textOne">
-                      Our spa salon is super cool, you can do whatever
-                      you want there, serriously, everything, even call
-                      stuff.
+                      Наш отель имеет при себе одноименный ресторан, в котором вы можете отдохнуть после тяжелого дня или отметить праздники с семьёй.
                     </p>
                     <p className="s-c-m-f-f-b-textTwo">
-                      Our spa salon is super cool, you can do whatever
-                      you want there
+                      Находится он сразу на втором этаже и распологает огромный выбор блюд, напитков и шикарный вид на горы и ночной город.
                     </p>
                   </div>
                 </div>
@@ -79,22 +68,18 @@ const Galery = () => {
               <div className="s-c-m-flexbox">
                 <div className="s-c-m-f-flexbox">
                   <div className="s-c-m-f-f-block">
-                    <h1 className="s-c-m-f-f-b-header">
-                      Spa & Cosmetology
-                    </h1>
+                    <h1 className="s-c-m-f-f-b-header">Monte-Carlo Pool</h1>
                     <p className="s-c-m-f-f-b-textOne">
-                      Our spa salon is super cool, you can do whatever
-                      you want there
+                      Зона для свободных плаваний и отдыха.
                     </p>
                     <p className="s-c-m-f-f-b-textTwo">
-                      Our spa salon is super cool, you can do whatever
-                      you want there
+                      Расслабляющая кристально чистая вода в бассейне сможет заставить вас позабыть о всех делах и расслабиться по максимуму.
                     </p>
                   </div>
                 </div>
 
                 <img
-                  src={require("../media/sectionServicesImgTwo.png")}
+                  src={require("../media/sectionGalleryImgTwo.jpg")}
                   alt=""
                   className="s-c-m-f-img"
                 />

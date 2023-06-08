@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import Slider from "../components/Slider";
 const Rooms = () => {
   return (
     <>
@@ -19,7 +18,6 @@ const Rooms = () => {
                 alt=""
                 className="f-f-m-b-h-icon"
               />
-
               <div className="f-f-m-b-h-container">
                 <h1 className="f-f-m-b-h-c-header">
                   Лобби кафе-бар, открытый 24 часа в сутки
@@ -36,7 +34,6 @@ const Rooms = () => {
                 alt=""
                 className="f-f-m-b-h-icon"
               />
-
               <div className="f-f-m-b-h-container">
                 <h1 className="f-f-m-b-h-c-header">
                   Лобби кафе-бар, открытый 24 часа в сутки
@@ -127,74 +124,7 @@ const Rooms = () => {
               номеров. Во всех них есть вай-фай и ванная.
             </p>
           </div>
-
-          <ul className="r-f-main">
-            <li className="r-f-m-blocks">
-              <img
-                src={require("../media/sectionRoomsImg.png")}
-                alt=""
-                className="r-f-m-b-img"
-              />
-
-              <div className="r-f-m-b-container">
-                <h1 className="r-f-m-b-c-header">
-                  Стандартный номер
-                </h1>
-                <p className="r-f-m-b-c-description">Хорош для 2-3 человек</p>
-                <p className="r-f-m-b-c-price">$20 - $45</p>
-                <p className="r-f-m-b-c-text">
-                  22-24 m2 (248 ft2)King size or  twin bedsBathroom is
-                  equipped with a hairdryerFree high-speed
-                  Internet accessSafe
-                </p>
-                <Link to="/404" className="r-f-m-b-c-button">Забронировать</Link>
-              </div>
-            </li>
-
-            <li className="r-f-m-blocks">
-              <img
-                src={require("../media/sectionRoomsImg.png")}
-                alt=""
-                className="r-f-m-b-img"
-              />
-
-              <div className="r-f-m-b-container">
-                <h1 className="r-f-m-b-c-header">
-                  Стандартный номер
-                </h1>
-                <p className="r-f-m-b-c-description">Хорош для 2-3 человек</p>
-                <p className="r-f-m-b-c-price">$20 - $45</p>
-                <p className="r-f-m-b-c-text">
-                  22-24 m2 (248 ft2)King size or twin bedsBathroom is
-                  equipped with a hairdryerFree high-speed
-                  Internet accessSafe
-                </p>
-                <Link to="/404" className="r-f-m-b-c-button">Забронировать</Link>
-              </div>
-            </li>
-
-            <li className="r-f-m-blocks">
-              <img
-                src={require("../media/sectionRoomsImg.png")}
-                alt=""
-                className="r-f-m-b-img"
-              />
-
-              <div className="r-f-m-b-container">
-                <h1 className="r-f-m-b-c-header">
-                  Стандартный номер
-                </h1>
-                <p className="r-f-m-b-c-description">Хорош для 2-3 человек</p>
-                <p className="r-f-m-b-c-price">$20 - $45</p>
-                <p className="r-f-m-b-c-text">
-                  22-24 m2 (248 ft2)King size or twin bedsBathroom is
-                  equipped with a hairdryerFree high-speed
-                  Internet accessSafe
-                </p>{" "}
-                <Link to="/404" className="r-f-m-b-c-button">Забронировать</Link>
-              </div>
-            </li>
-          </ul>
+          <Slider />
         </div>
       </section>
     </>
