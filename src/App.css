@@ -244,9 +244,10 @@ button:active {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-top: 20px;
 }
 
-.slick-slider {
+.r-f-m-blocks .pnlm-container {
     width: 65% !important;
     margin-bottom: 20px;
 }
@@ -293,7 +294,7 @@ button:active {
 .r-f-m-b-c-button {
 
     background-color: #EBC52F;
-    color: #fff;
+    color: #1d1d1d;
     font-family: 'Inter', sans-serif;
     font-style: italic;
     font-size: 16.0998px;

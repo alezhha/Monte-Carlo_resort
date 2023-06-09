@@ -61,6 +61,9 @@
 }
 
 @media (max-width: 425px) {
+  .r-f-m-blocks .pnlm-container {
+    width: 100% !important;
+  }
   .h-header {
     font-size: 54px;
   }
