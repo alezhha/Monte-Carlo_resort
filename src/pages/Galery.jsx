@@ -19,9 +19,9 @@ const Galery = () => {
           </div>
 
           <div className="g-c-grid">
-            <Pannellum id='g-c-g-img1' image={reception} autoLoad yaw={20} showControls={false} autoRotate={-5} />
-            <Pannellum id="g-c-g-img2" image={restaurant} autoLoad yaw={190} showControls={false} autoRotate={-5} />
-            <Pannellum id="g-c-g-img3" image={restaurant2} autoLoad yaw={190} showControls={false} autoRotate={-5} />
+            <Pannellum id='g-c-g-img1' lazyLoad image={reception} autoLoad yaw={20} showControls={false} autoRotate={-5} />
+            <Pannellum id="g-c-g-img2" lazyLoad image={restaurant} autoLoad yaw={190} showControls={false} autoRotate={-5} />
+            <Pannellum id="g-c-g-img3" lazyLoad image={restaurant2} autoLoad yaw={190} showControls={false} autoRotate={-5} />
           </div>
 
           <img

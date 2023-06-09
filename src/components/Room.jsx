@@ -32,6 +32,7 @@ const Room = (props) => {
             showControls={false}
             autoRotate={-5}
             hfov={150}
+            lazyLoad
           />
           <Pannellum
             id="g-c-g-img2"
@@ -41,6 +42,7 @@ const Room = (props) => {
             showControls={false}
             autoRotate={-5}
             hfov={150}
+            lazyLoad
           />
           <Pannellum
             id="g-c-g-img3"
@@ -50,6 +52,7 @@ const Room = (props) => {
             showControls={false}
             autoRotate={-5}
             hfov={150}
+            lazyLoad
           />
         </div>
     </div>
