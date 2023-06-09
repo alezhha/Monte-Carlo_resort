@@ -125,8 +125,8 @@ const Rooms = () => {
                   autoLoad
                   showControls={false}
                   autoRotate={-5}
-                  image={room.pannellum}
-                  yaw={room.yaw}
+                  image={room.pannellum[0]}
+                  yaw={room.yaw[0]}
                 />
 
                 <div className="r-f-m-b-container">
@@ -136,8 +136,15 @@ const Rooms = () => {
                   </p>
                   <p className="r-f-m-b-c-price">${room.price}</p>
                   <p className="r-f-m-b-c-text">{room.description}</p>
-                  <Link to="/404" className="r-f-m-b-c-button">
-                    Забронировать
+                  <Link
+                    onClick={() => {
+                      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                    }}
+                    to="/room"
+                    state={{ room: room }}
+                    className="r-f-m-b-c-button"
+                  >
+                    Подробнее
                   </Link>
                 </div>
               </li>

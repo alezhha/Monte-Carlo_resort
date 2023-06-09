@@ -252,6 +252,12 @@ button:active {
     margin-bottom: 20px;
 }
 
+.r-img {
+    width: 65%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
 .r-f-m-b-c-header {
     
     color: #fff;
@@ -671,4 +677,17 @@ a {
 
 .pnf div a {
     color: #EBC52F;
+}
+
+.room {
+    padding: 80px 30px;
+    background-color: #1d1d1d;
+}
+
+.room .r-f-m-blocks {
+    align-items: center;
+}
+
+.room .r-f-m-blocks .pnlm-container {
+    height: 80vh !important;
 }
