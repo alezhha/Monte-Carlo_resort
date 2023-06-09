@@ -25,6 +25,7 @@ const Galery = () => {
           </div>
 
           <img
+            loading="lazy"
             src={require("../media/sectionGalleryImgFour.jpg")}
             alt=""
             className="g-c-img"
@@ -47,6 +48,7 @@ const Galery = () => {
             <div className="s-c-m-flexboxes">
               <div className="s-c-m-flexbox">
                 <img
+                  loading="lazy"
                   src={require("../media/sectionGalleryImgOne.jpg")}
                   alt=""
                   className="s-c-m-f-img"
@@ -79,6 +81,7 @@ const Galery = () => {
                 </div>
 
                 <img
+                  loading="lazy"
                   src={require("../media/sectionGalleryImgTwo.jpg")}
                   alt=""
                   className="s-c-m-f-img"

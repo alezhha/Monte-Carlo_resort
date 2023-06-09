@@ -17,6 +17,7 @@ const Home = () => {
               Улица Курорт 68, 720003 Джалал-Абад, Киргизия
             </p>
             <img
+              loading="lazy"
               src={require("../media/sectionAboutImg.png")}
               alt=""
               className="a-f-l-b-img"

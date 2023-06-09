@@ -21,7 +21,7 @@ const Room = (props) => {
             Забронировать
           </Link>
         </div>
-        <img src={room.image} className="r-img" alt={room.title} />
+        <img src={room.image} loading="lazy" className="r-img" alt={room.title} />
       </li>
       <div className="g-c-grid">
           <Pannellum

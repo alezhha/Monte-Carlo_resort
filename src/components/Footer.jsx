@@ -10,6 +10,7 @@ const Footer = () => {
       <div className="l-container">
         <a href="https://www.instagram.com/montecarloresort/">
           <img
+            loading="lazy"
             src={require("../media/instagramIcon.png")}
             alt=""
             className="l-c-s-icons"
