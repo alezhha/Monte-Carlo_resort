@@ -1,6 +1,22 @@
 import React from "react";
-import Slider from "../components/Slider";
+import standart from "../360img/standart.jpg";
+import family from "../360img/family.jpg";
+import lux from "../360img/lux.jpg";
+import { Pannellum } from "pannellum-react";
+import { Link } from "react-router-dom";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const Rooms = () => {
+  var settings = {
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    autoplay: true,
+    draggable: false,
+    lazyLoad: true,
+  };
   return (
     <>
       <section className="features">
@@ -124,7 +140,98 @@ const Rooms = () => {
               номеров. Во всех них есть вай-фай и ванная.
             </p>
           </div>
-          <Slider />
+          <ul className="r-f-main">
+            <li className="r-f-m-blocks">
+              <Slider {...settings}>
+                <Pannellum
+                  autoLoad
+                  showControls={false}
+                  autoRotate={-5}
+                  image={standart}
+                  yaw={180}
+                />
+                <Pannellum
+                  autoLoad
+                  showControls={false}
+                  autoRotate={-5}
+                  image={lux}
+                />
+              </Slider>
+
+              <div className="r-f-m-b-container">
+                <h1 className="r-f-m-b-c-header">Стандартный номер</h1>
+                <p className="r-f-m-b-c-description">Хорош для 2-3 человек</p>
+                <p className="r-f-m-b-c-price">$60</p>
+                <p className="r-f-m-b-c-text">
+                  Отличный стандартный номер для проживания самому или с второй
+                  половиной.
+                </p>
+                <Link to="/404" className="r-f-m-b-c-button">
+                  Забронировать
+                </Link>
+              </div>
+            </li>
+            <li className="r-f-m-blocks">
+              <Slider>
+                <Pannellum
+                  autoLoad
+                  showControls={false}
+                  autoRotate={-5}
+                  image={family}
+                  yaw={30}
+                />
+                <Pannellum
+                  autoLoad
+                  showControls={false}
+                  autoRotate={-5}
+                  image={standart}
+                  yaw={180}
+                />
+              </Slider>
+
+              <div className="r-f-m-b-container">
+                <h1 className="r-f-m-b-c-header">Семейный номер</h1>
+                <p className="r-f-m-b-c-description">Хорош для 2-4 человек</p>
+                <p className="r-f-m-b-c-price">$60</p>
+                <p className="r-f-m-b-c-text">
+                  Отличный вариант для небольшой семьи из двух детей и
+                  родителей.
+                </p>
+                <Link to="/404" className="r-f-m-b-c-button">
+                  Забронировать
+                </Link>
+              </div>
+            </li>
+            <li className="r-f-m-blocks">
+              <Slider>
+                <Pannellum
+                  autoLoad
+                  showControls={false}
+                  autoRotate={-5}
+                  image={lux}
+                />
+                <Pannellum
+                  autoLoad
+                  showControls={false}
+                  autoRotate={-5}
+                  image={standart}
+                  yaw={180}
+                />
+              </Slider>
+
+              <div className="r-f-m-b-container">
+                <h1 className="r-f-m-b-c-header">Люксовый номер</h1>
+                <p className="r-f-m-b-c-description">Хорош для 1-2 человек</p>
+                <p className="r-f-m-b-c-price">$60</p>
+                <p className="r-f-m-b-c-text">
+                  Номер для экстренного ощущения комфорта и роскоши.
+                </p>
+                <Link to="/404" className="r-f-m-b-c-button">
+                  Забронировать
+                </Link>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
     </>

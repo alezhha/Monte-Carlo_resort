@@ -246,7 +246,7 @@ button:active {
     align-items: flex-start;
 }
 
-#r-f-m-b-img, #r-f-m-b-img2, #r-f-m-b-img3 {
+.slick-slider {
     width: 65% !important;
     margin-bottom: 20px;
 }
