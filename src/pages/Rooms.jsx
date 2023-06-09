@@ -4,19 +4,8 @@ import family from "../360img/family.jpg";
 import lux from "../360img/lux.jpg";
 import { Pannellum } from "pannellum-react";
 import { Link } from "react-router-dom";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 const Rooms = () => {
-  var settings = {
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 1,
-    autoplay: true,
-    draggable: false,
-    lazyLoad: true,
-  };
   return (
     <>
       <section className="features">
@@ -142,7 +131,6 @@ const Rooms = () => {
           </div>
           <ul className="r-f-main">
             <li className="r-f-m-blocks">
-              <Slider {...settings}>
                 <Pannellum
                   autoLoad
                   showControls={false}
@@ -150,13 +138,6 @@ const Rooms = () => {
                   image={standart}
                   yaw={180}
                 />
-                <Pannellum
-                  autoLoad
-                  showControls={false}
-                  autoRotate={-5}
-                  image={lux}
-                />
-              </Slider>
 
               <div className="r-f-m-b-container">
                 <h1 className="r-f-m-b-c-header">Стандартный номер</h1>
@@ -172,7 +153,6 @@ const Rooms = () => {
               </div>
             </li>
             <li className="r-f-m-blocks">
-              <Slider>
                 <Pannellum
                   autoLoad
                   showControls={false}
@@ -180,14 +160,6 @@ const Rooms = () => {
                   image={family}
                   yaw={30}
                 />
-                <Pannellum
-                  autoLoad
-                  showControls={false}
-                  autoRotate={-5}
-                  image={standart}
-                  yaw={180}
-                />
-              </Slider>
 
               <div className="r-f-m-b-container">
                 <h1 className="r-f-m-b-c-header">Семейный номер</h1>
@@ -203,21 +175,12 @@ const Rooms = () => {
               </div>
             </li>
             <li className="r-f-m-blocks">
-              <Slider>
                 <Pannellum
                   autoLoad
                   showControls={false}
                   autoRotate={-5}
                   image={lux}
                 />
-                <Pannellum
-                  autoLoad
-                  showControls={false}
-                  autoRotate={-5}
-                  image={standart}
-                  yaw={180}
-                />
-              </Slider>
 
               <div className="r-f-m-b-container">
                 <h1 className="r-f-m-b-c-header">Люксовый номер</h1>
