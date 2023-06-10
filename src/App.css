@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,700;1,400;1,700&family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,700;1,400;1,700&display=swap');
 
 * {
     scroll-behavior: smooth;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: "Calibri", sans-serif;
 }
 
 button {
@@ -58,7 +59,6 @@ button:active {
 
     text-decoration: none;
     color: #fff;
-    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
 
@@ -75,7 +75,6 @@ button:active {
 .h-n-rS-address {
 
     color: #fff;
-    font-family: 'Inter', sans-serif;
     font-size: 12;
     font-weight: 400;
 
@@ -85,7 +84,6 @@ button:active {
 
     background-color: transparent;
     color: #ebc52f;
-    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 400;
     padding: 10px 15px;
@@ -150,7 +148,7 @@ button:active {
 
 .a-f-l-b-header {
 
-    font-family: 'Inter', sans-serif;
+    font-family: serif;
     font-size: 54px;
     font-weight: 600;
     margin: 0;
@@ -159,7 +157,6 @@ button:active {
 
 .a-f-l-b-address {
 
-    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
 
@@ -167,7 +164,6 @@ button:active {
 
 .a-f-right-block {
 
-    font-family: 'Inter', sans-serif;
     text-transform: capitalize;
     font-size: 20px;
     font-weight: 400;
@@ -207,7 +203,7 @@ button:active {
 .r-f-t-header {
 
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: serif;
     font-size: 54px;
     font-weight: 600;
     margin: 0 auto;
@@ -218,7 +214,6 @@ button:active {
 .r-f-t-text {
 
     color: #fff;
-    font-family: 'Inter', sans-serif;
     font-size: 26px;
     font-weight: 400;
     margin: 0;
@@ -262,7 +257,7 @@ button:active {
 .r-f-m-b-c-header {
     
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: serif;
     font-size: 38px;
     font-weight: 600;
     margin: 0;
@@ -272,7 +267,6 @@ button:active {
 .r-f-m-b-c-description {
 
     color: #fff;
-    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
 
@@ -291,7 +285,6 @@ button:active {
 .r-f-m-b-c-text {
 
     color: #fff;
-    font-family: 'Inria Serif', sans-serif;
     font-style: italic;
     font-size: 16.4203px;
     font-weight: 700;
@@ -302,7 +295,6 @@ button:active {
 
     background-color: #EBC52F;
     color: #1d1d1d;
-    font-family: 'Inter', sans-serif;
     font-style: italic;
     font-size: 16.0998px;
     font-weight: 600;
@@ -334,14 +326,13 @@ button:active {
 }
 
 .g-c-t-header {
-    font-family: 'Inter', sans-serif;
+    font-family: serif;
     font-size: 42px;
     font-weight: 600;
 }
 
 .g-c-t-description {
 
-    font-family: 'Inter', sans-serif;
     font-size: 28px;
     font-weight: 400;
 
@@ -361,7 +352,7 @@ button:active {
 #g-c-g-img2 { grid-area: i2 }
 #g-c-g-img3 { grid-area: i3 }
 
-.g-c-img {
+#g-c-img {
     width: 100%;
 }
 .services {
@@ -383,17 +374,16 @@ button:active {
 
 .s-c-t-header {
 
-    font-family: 'Inter', sans-serif;
+    font-family: 'Calibri';
     font-size: 42px;
-    font-weight: 600;
 
 }
 
 .s-c-t-text {
 
-    font-family: 'Inter', sans-serif;
+    font-family: 'Calibri', sans-serif;
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 300;
 
 }
 
@@ -437,7 +427,7 @@ button:active {
 
 .s-c-m-f-f-b-textOne {
 
-    font-family: 'Inter', sans-serif;
+    font-family: 'Calibri', serif;
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 26px;
@@ -446,7 +436,7 @@ button:active {
 
 .s-c-m-f-f-b-textTwo {
 
-    font-family: 'Inter', sans-serif;
+    font-family: 'Calibri', serif;
     font-size: 20px;
     font-weight: 400;
 
@@ -472,7 +462,7 @@ button:active {
 .f-f-header {
 
     color: #EBC52F;
-    font-family: 'Inter', sans-serif;
+    font-family: serif;
     font-size: 42px;
     font-weight: 600;
     margin-top: 80px;
@@ -484,7 +474,6 @@ button:active {
 .f-f-text {
 
     color: #fff;
-    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 40px;
@@ -527,7 +516,7 @@ button:active {
 .f-f-m-b-h-c-header {
 
     color: #ebc52f;
-    font-family: 'Inter', sans-serif;
+    font-family: serif;
     font-size: 22px;
     font-weight: 600;
     margin: 0 0 12px 0;
@@ -564,7 +553,7 @@ button:active {
 .b-header {
 
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: serif;
     font-size: 48.3582px;
     font-weight: 600;
     margin: 0 0 42px 0;
@@ -574,7 +563,6 @@ button:active {
 .b-text {
 
     color: #fff;
-    font-family: 'Inter', sans-serif;
     font-size: 23.2402px;
     font-weight: 400;
     margin-bottom: 79px;
@@ -585,7 +573,6 @@ button:active {
 
     background-color: #ebc52f;
     color: #fff;
-    font-family: 'Inter', sans-serif;
     font-style: italic;
     font-size: 26.4752px;
     font-weight: 600;
@@ -615,7 +602,7 @@ button:active {
 
 .l-header {
 
-    font-family: 'Inter', sans-serif;
+    font-family: serif;
     font-size: 42px;
     font-weight: 600;
     margin-bottom: 93px;
@@ -624,7 +611,6 @@ button:active {
 
 .l-number {
 
-    font-family: 'Inter', sans-serif;
     font-size: 23.2402px;
     font-weight: 400;
     margin: 0;
@@ -633,7 +619,6 @@ button:active {
 
 .l-email {
 
-    font-family: 'Inter', sans-serif;
     font-size: 23.2402px;
     font-weight: 400;
     margin: 0 0 45px 0;

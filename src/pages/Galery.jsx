@@ -3,6 +3,7 @@ import { Pannellum } from "pannellum-react";
 import reception from "../360img/reception.jpg";
 import restaurant from '../360img/restaurant.jpg'
 import restaurant2 from '../360img/restaurant2.jpg'
+import hall from '../360img/hall.jpg'
 import { useTranslation } from 'react-i18next';
 
 const Galery = () => {
@@ -22,12 +23,7 @@ const Galery = () => {
             <Pannellum id="g-c-g-img3" lazyLoad image={restaurant2} autoLoad yaw={190} showControls={false} autoRotate={-5} />
           </div>
 
-          <img
-            loading="lazy"
-            src={require("../media/sectionGalleryImgFour.jpg")}
-            alt=""
-            className="g-c-img"
-          />
+            <Pannellum id="g-c-img" lazyLoad image={hall} autoLoad yaw={0} showControls={false} autoRotate={-5} />
         </div>
       </section>
 
