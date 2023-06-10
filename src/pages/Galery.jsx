@@ -3,19 +3,17 @@ import { Pannellum } from "pannellum-react";
 import reception from "../360img/reception.jpg";
 import restaurant from '../360img/restaurant.jpg'
 import restaurant2 from '../360img/restaurant2.jpg'
+import { useTranslation } from 'react-i18next';
 
 const Galery = () => {
+  const { t } = useTranslation();
   return (
     <>
       <section className="gallery">
         <div className="g-container">
           <div className="g-c-texts">
-            <h1 className="g-c-t-header">Изображения отеля и интерьера</h1>
-            <p className="g-c-t-description">
-              Мы находимся в самом ярком и интересном месте города. Центр города
-              в 400 метрах от нас. В то же время, территория отеля наполнена
-              удивительными растениями и видами на горы
-            </p>
+            <h1 className="g-c-t-header">{t('galeryTitle')}</h1>
+            <p className="g-c-t-description">{t('galeryText')}</p>
           </div>
 
           <div className="g-c-grid">
@@ -36,12 +34,8 @@ const Galery = () => {
       <section className="services">
         <div className="s-container">
           <div className="s-c-texts">
-            <h1 className="s-c-t-header">Наши сервисы: Ресторан и Бассейн</h1>
-            <p className="s-c-t-text">
-              Мы предлагаем вам различные виды сервисов: Управляйте
-              релаксирующей атмосферой отдыха или отмечайте праздники в
-              ресторане отеля.
-            </p>
+            <h1 className="s-c-t-header">{t("servicesTitle")}</h1>
+            <p className="s-c-t-text">{t('servicesText')}</p>
           </div>
 
           <div className="s-c-main">
@@ -57,12 +51,8 @@ const Galery = () => {
                 <div className="s-c-m-f-flexbox">
                   <div className="s-c-m-f-f-block">
                     <h1 className="s-c-m-f-f-b-header">Monte-Carlo Restaurant</h1>
-                    <p className="s-c-m-f-f-b-textOne">
-                      Наш отель имеет при себе одноименный ресторан, в котором вы можете отдохнуть после тяжелого дня или отметить праздники с семьёй.
-                    </p>
-                    <p className="s-c-m-f-f-b-textTwo">
-                      Находится он сразу на втором этаже и распологает огромный выбор блюд, напитков и шикарный вид на горы и ночной город.
-                    </p>
+                    <p className="s-c-m-f-f-b-textOne">{t('restaurantTitle')}</p>
+                    <p className="s-c-m-f-f-b-textTwo">{t('restaurantText')}</p>
                   </div>
                 </div>
               </div>
@@ -71,12 +61,8 @@ const Galery = () => {
                 <div className="s-c-m-f-flexbox">
                   <div className="s-c-m-f-f-block">
                     <h1 className="s-c-m-f-f-b-header">Monte-Carlo Pool</h1>
-                    <p className="s-c-m-f-f-b-textOne">
-                      Зона для свободных плаваний и отдыха.
-                    </p>
-                    <p className="s-c-m-f-f-b-textTwo">
-                      Расслабляющая кристально чистая вода в бассейне сможет заставить вас позабыть о всех делах и расслабиться по максимуму.
-                    </p>
+                    <p className="s-c-m-f-f-b-textOne">{t("poolTitle")}</p>
+                    <p className="s-c-m-f-f-b-textTwo">{t("poolText")}</p>
                   </div>
                 </div>
 

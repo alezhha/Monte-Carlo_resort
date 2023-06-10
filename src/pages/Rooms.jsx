@@ -2,16 +2,16 @@ import React from "react";
 import { Pannellum } from "pannellum-react";
 import { Link } from "react-router-dom";
 import { ROOMS } from "../rooms.jsx";
+import { useTranslation } from "react-i18next";
 
 const Rooms = () => {
+  const {t} = useTranslation()
   return (
     <>
       <section className="features">
         <div className="f-flexbox">
-          <h1 className="f-f-header">Особенности нашего отеля</h1>
-          <p className="f-f-text">
-            Мы хотим чтобы наши гости чувствовали себя свободно и удобно в{" "}
-            <span className="f-f-t-mark">Monte-Carlo Resort</span>{" "}
+          <h1 className="f-f-header">{t("featuresTitle")}</h1>
+          <p className="f-f-text">{t("featuresText")} <span className="f-f-t-mark">Monte-Carlo Resort</span>
           </p>
 
           <div className="f-f-main">
@@ -29,13 +29,8 @@ const Rooms = () => {
                 />
               </svg>
               <div className="f-f-m-b-h-container">
-                <h1 className="f-f-m-b-h-c-header">
-                  Ресторан, открытый 24 часа в сутки
-                </h1>
-                <p className="f-f-m-b-h-c-text">
-                  Наш ресторан Monte-Carlo открыт всё время вашего прибывания у
-                  нас!
-                </p>
+                <h1 className="f-f-m-b-h-c-header">{t("feature1Title")}</h1>
+                <p className="f-f-m-b-h-c-text">{t("feature1Text")}</p>
               </div>
             </div>
             <div className="f-f-m-b-holder">
@@ -52,12 +47,8 @@ const Rooms = () => {
                 />
               </svg>
               <div className="f-f-m-b-h-container">
-                <h1 className="f-f-m-b-h-c-header">
-                  Бесплатный Wi-Fi по всему отелю
-                </h1>
-                <p className="f-f-m-b-h-c-text">
-                  Вы можете использовать его когда Вам угодно и где Вам угодно!
-                </p>
+                <h1 className="f-f-m-b-h-c-header">{t("feature2Title")}</h1>
+                <p className="f-f-m-b-h-c-text">{t("feature2Text")}</p>
               </div>
             </div>
             <div className="f-f-m-b-holder">
@@ -74,12 +65,8 @@ const Rooms = () => {
                 />
               </svg>
               <div className="f-f-m-b-h-container">
-                <h1 className="f-f-m-b-h-c-header">
-                  Отзывчивый и приветливый персонал
-                </h1>
-                <p className="f-f-m-b-h-c-text">
-                  Наши сотрудники отеля - настоящие профессионалы своего дела!
-                </p>
+                <h1 className="f-f-m-b-h-c-header">{t("feature3Title")}</h1>
+                <p className="f-f-m-b-h-c-text">{t("feature3Text")}</p>
               </div>
             </div>
             <div className="f-f-m-b-holder">
@@ -96,13 +83,8 @@ const Rooms = () => {
                 />
               </svg>
               <div className="f-f-m-b-h-container">
-                <h1 className="f-f-m-b-h-c-header">
-                  Великолепный вид со всех сторон отеля
-                </h1>
-                <p className="f-f-m-b-h-c-text">
-                  Наслаждайтесь природой города Джалал-Абад из любой точки
-                  обзора!
-                </p>
+                <h1 className="f-f-m-b-h-c-header">{t("feature4Title")}</h1>
+                <p className="f-f-m-b-h-c-text">{t("feature4Text")}</p>
               </div>
             </div>
           </div>
@@ -112,11 +94,8 @@ const Rooms = () => {
       <section className="rooms" id="rooms">
         <div className="r-flexbox">
           <div className="r-f-texts">
-            <h1 className="r-f-t-header">Наши номера</h1>
-            <p className="r-f-t-text">
-              Мы предлагаем вам выбрать один из трёх типов наших гостевых
-              номеров. Во всех них есть вай-фай и ванная.
-            </p>
+            <h1 className="r-f-t-header">{t("roomsTitle")}</h1>
+            <p className="r-f-t-text">{t("roomsText")}</p>
           </div>
           <ul className="r-f-main">
             {ROOMS.map((room) => (
@@ -130,12 +109,12 @@ const Rooms = () => {
                 />
 
                 <div className="r-f-m-b-container">
-                  <h1 className="r-f-m-b-c-header">{room.title}</h1>
+                  <h1 className="r-f-m-b-c-header">{t(room.title)}</h1>
                   <p className="r-f-m-b-c-description">
-                    Хорош для {room.people} человек
+                    {t("roomPeople1")} {room.people} {t("roomPeople2")}
                   </p>
                   <p className="r-f-m-b-c-price">${room.price}</p>
-                  <p className="r-f-m-b-c-text">{room.description}</p>
+                  <p className="r-f-m-b-c-text">{t(room.description)}</p>
                   <Link
                     onClick={() => {
                       window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -143,9 +122,7 @@ const Rooms = () => {
                     to="/room"
                     state={{ room: room }}
                     className="r-f-m-b-c-button"
-                  >
-                    Подробнее
-                  </Link>
+                  >{t("roomButton")}</Link>
                 </div>
               </li>
             ))}

@@ -50,6 +50,7 @@ button:active {
     display: flex;
     justify-content: space-between;
     width: 23%;
+    align-items: center;
 
 }
 
@@ -648,6 +649,16 @@ button:active {
 .h-n-select {
     display: none;
 }
+
+.h-n-language-select {
+    display: block;
+    background-color: transparent;
+    border: 2px solid #EBC52F;
+    padding: 10px 0px;
+    color: #EBC52F;
+    border-radius: 10px;
+    font-size: 10px;
+  }
 
 a {
     text-decoration: none;

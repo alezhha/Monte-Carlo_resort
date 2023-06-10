@@ -2,26 +2,25 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { Pannellum } from "pannellum-react";
+import { useTranslation } from "react-i18next";
 
-const Room = (props) => {
+const Room = () => {
   const location = useLocation();
   const room = location.state.room;
-  console.log(room);
+  const {t} = useTranslation()
   return (
     <div className="room">
       <li className="r-f-m-blocks">
         <div className="r-f-m-b-container" style={{ marginBottom: "40px" }}>
-          <h1 className="r-f-m-b-c-header">{room.title}</h1>
+          <h1 className="r-f-m-b-c-header">{t(room.title)}</h1>
           <p className="r-f-m-b-c-description">
-            Хорош для {room.people} человек
+            {t("roomPeople1")} {room.people} {t("roomPeople2")}
           </p>
           <p className="r-f-m-b-c-price">${room.price}</p>
-          <p className="r-f-m-b-c-text">{room.description}</p>
-          <Link to="/404" className="r-f-m-b-c-button">
-            Забронировать
-          </Link>
+          <p className="r-f-m-b-c-text">{t(room.description)}</p>
+          <Link to="/404" className="r-f-m-b-c-button">{t("bookingButton")}</Link>
         </div>
-        <img src={room.image} loading="lazy" className="r-img" alt={room.title} />
+        <img src={room.image} loading="lazy" className="r-img" alt={t(room.description)} />
       </li>
       <div className="g-c-grid">
           <Pannellum

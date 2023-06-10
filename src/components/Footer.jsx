@@ -1,11 +1,13 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const {t} = useTranslation()
   return (
     <section className="location">
-      <h1 className="l-header">Улица Курорт 68</h1>
-      <p className="l-number">Номер телефона: +996 755 22 76 55</p>
-      <p className="l-email">Электронная почта: callermanjohnson@gmail.com</p>
+      <h1 className="l-header">{t('footerAddress')}</h1>
+      <p className="l-number">{t("footerPN")} +996 755 22 76 55</p>
+      <p className="l-email">{t("footerEmail")} callermanjohnson@gmail.com</p>
 
       <div className="l-container">
         <a href="https://www.instagram.com/montecarloresort/">
