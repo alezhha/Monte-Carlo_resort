@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section className="location">
       <h1 className="l-header">{t('footerAddress')}</h1>
-      <p className="l-number">{t("footerPN")} +996 755 22 76 55</p>
+      <p className="l-number">{t("footerPN")} +996 775 33 33 13</p>
       <p className="l-email">{t("footerEmail")} callermanjohnson@gmail.com</p>
 
       <div className="l-container">
