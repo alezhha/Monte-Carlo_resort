@@ -70,6 +70,12 @@
   .about {
     width: 100%;
   }
+  .r-f-m-b-container {
+    width: 90%;
+  }
+  .r-f-m-b-img {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 425px) {
@@ -94,7 +100,7 @@
   .r-f-m-b-container {
     width: 90%;
   }
-  #r-f-m-b-img {
+  .r-f-m-b-img {
     width: 100% !important;
   }
   .a-f-l-b-img {
