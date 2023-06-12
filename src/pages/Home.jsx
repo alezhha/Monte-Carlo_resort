@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
-
+import { Fade } from "react-awesome-reveal";
 
 
 const Home = () => {
@@ -13,6 +13,7 @@ const Home = () => {
         <p className="h-text">Resort</p>
       </section>
 
+      <Fade>
       <section className="about" id="about">
         <div className="a-flexbox">
           <div className="a-f-left-block">
@@ -31,7 +32,9 @@ const Home = () => {
           <p className="a-f-right-block">{t('aboutText')}</p>
         </div>
       </section>
+      </Fade>
 
+      <Fade>
       <section
         className="booking"
         id="booking"
@@ -45,6 +48,7 @@ const Home = () => {
         <p className="b-text">{t('bookingText')}</p>
         <Link to="/404" className="b-button" >{t('bookingButton')}</Link>
       </section>
+      </Fade>
     </div>
   );
 };
