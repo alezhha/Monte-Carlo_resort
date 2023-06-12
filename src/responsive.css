@@ -2,6 +2,14 @@
   .h-n-leftSide, .h-n-rightSide, .a-flexbox {
     flex-direction: column;
   }
+  .hero {
+    height: 50vh;
+  }
+  .s-c-m-flexbox {
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
   .g-c-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -12,6 +20,9 @@
     "i2 i2 i2"
     "i3 i3 i3"
   }   
+  .s-c-m-f-img {
+    width: 100%;
+  }
 
   .h-n-leftSide {
     display: none;
@@ -96,14 +107,6 @@
     width: 90%;
     margin: 0 auto;
   }
-  .s-c-m-flexbox {
-    flex-direction: column;
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-  .s-c-m-f-img {
-    width: 100%;
-  }
   .s-c-m-f-f-block {
     margin: 20px 0;
   }
@@ -113,9 +116,7 @@
   .h-text {
     font-size: 40px;
   }
-  .hero {
-    height: 500px;
-  }
+
   .f-f-main {
     flex-direction: column;
   }
