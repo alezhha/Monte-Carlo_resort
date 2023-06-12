@@ -4,6 +4,7 @@
   }
   .hero {
     height: 50vh;
+    background-attachment: local;
   }
   .s-c-m-flexbox {
     flex-direction: column;
