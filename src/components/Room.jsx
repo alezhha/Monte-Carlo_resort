@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { Pannellum } from "pannellum-react";
 import { useTranslation } from "react-i18next";
-import { Slide } from "react-awesome-reveal";
+import { Slide } from "react-reveal";
 
 const Room = () => {
   const location = useLocation();
@@ -23,7 +23,7 @@ const Room = () => {
         </div>
         <img src={room.image} loading="lazy" className="r-img" alt={t(room.description)} />
       </li>
-      <Slide direction="right">
+      <Slide right>
       <div className="g-c-grid">
           <Pannellum
             id="g-c-g-img1"

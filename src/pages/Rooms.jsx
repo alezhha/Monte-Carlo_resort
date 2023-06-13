@@ -3,7 +3,7 @@ import { Pannellum } from "pannellum-react";
 import { Link } from "react-router-dom";
 import { ROOMS } from "../rooms.jsx";
 import { useTranslation } from "react-i18next";
-import { Slide } from "react-awesome-reveal";
+import { Slide } from "react-reveal";
 
 const Rooms = () => {
   const {t} = useTranslation()
@@ -15,7 +15,7 @@ const Rooms = () => {
           <p className="f-f-text">{t("featuresText")} <span className="f-f-t-mark">Monte-Carlo Resort</span>
           </p>
 
-          <Slide cascade>
+          <Slide left cascade>
           <div className="f-f-main">
             <div className="f-f-m-b-holder">
               <svg
@@ -102,7 +102,7 @@ const Rooms = () => {
           </div>
           <ul className="r-f-main">
             {ROOMS.map((room) => (
-              <Slide direction="left">
+              <Slide left>
                               <li className="r-f-m-blocks">
                 <Pannellum
                   autoLoad

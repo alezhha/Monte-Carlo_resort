@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
-import { Fade } from "react-awesome-reveal";
+import { Fade } from "react-reveal";
 
 
 const Home = () => {
