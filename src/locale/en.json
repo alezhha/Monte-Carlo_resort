@@ -3,7 +3,7 @@
   "galery":"Galery",
   "rooms":"Apartments",
   "aboutTitle":"About Us",
-  "address":"Kurort Street 38, 720003 Jalal-Abad, Kyrgyzstan",
+  "address":"Kurort Street 38, Jalal-Abad, Kyrgyzstan",
   "aboutText":"Featuring a bar and free WiFi, Monte Carlo Resort Hotel is located in Jalal-Abad. Guests can enjoy a spa and wellness center with an indoor pool, a fitness center and a sauna, as well as a restaurant.Each room at the hotel has a work desk. Rooms at the Monte-Carlo Resort have a private bathroom with bath and hairdryer, a flat-screen TV and air conditioning, and some rooms have a balcony. All rooms have a wardrobe. A la carte breakfast is served daily at the hotel. The English and Russian speaking staff at the front desk are always ready to help.",
   "bookingTitle":"Book a room",
   "bookingText":"Fill in the fields on the link below to book a room before checking in",
@@ -35,6 +35,7 @@
   "roomsText":"We offer you to choose one of our three types of guest rooms. All of them have Wi-Fi and a bathroom.",
   "roomPeople1":"Good for",
   "roomPeople2":"people",
+  "roomPrice":"h",
   "roomButton":"More",
 
   "standartTitle":"Standart apartment",

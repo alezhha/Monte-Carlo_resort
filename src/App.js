@@ -1,5 +1,5 @@
-import './App.css';
-import './responsive.css';
+import './App.scss';
+import './responsive.scss';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';

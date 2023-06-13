@@ -1,6 +1,14 @@
+@import './App.scss';
+
 @media (max-width: 768px) {
   .h-n-leftSide, .h-n-rightSide, .a-flexbox {
     flex-direction: column;
+  }
+  .r-f-m-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
   .hero {
     height: 50vh;
@@ -44,11 +52,14 @@
   .h-n-select {
     display: block;
     background-color: transparent;
-    border: 2px solid #EBC52F;
+    border: 2px solid ;
     padding: 10px 0px;
-    color: #EBC52F;
+    color: $main-color;
     border-radius: 10px;
     font-size: 10px;
+    box-shadow: $main-color 0 0 5px;
+    text-shadow: $main-color 0 0 5px;
+    cursor: pointer;
   }
   .h-text, .r-f-m-b-c-header {
     font-size: 24px;
@@ -90,12 +101,6 @@
   }
   .b-button {
     font-size: 20px;
-  }
-  .r-f-m-blocks {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
   }
   .r-f-m-b-container {
     width: 90%;

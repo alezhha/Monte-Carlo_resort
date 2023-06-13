@@ -17,7 +17,7 @@ const Room = () => {
           <p className="r-f-m-b-c-description">
             {t("roomPeople1")} {room.people} {t("roomPeople2")}
           </p>
-          <p className="r-f-m-b-c-price">${room.price}</p>
+          <p className="r-f-m-b-c-price">${room.price}/24{t("roomPrice")}</p>
           <p className="r-f-m-b-c-text">{t(room.description)}</p>
           <Link to="/404" className="r-f-m-b-c-button">{t("bookingButton")}</Link>
         </div>
